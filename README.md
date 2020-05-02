@@ -13,21 +13,31 @@ Your team has just been assigned to make a few updates to the Shady Acres websit
 #### Setup
 
 1. Decide as a group who will be in charge of the repo. This person will be your Git Czar.
-2. Have the Git Czar **fork** and **clone** this repo from SEI-Apollo.
-3. Every other member of the team should **clone** Team Member 1's repo, **do not fork**.
-4. All members run `$ npm i` to install all needed Node packages.
-5. All members run `$ npm start` to start the react app.
-6. Each member should complete their and **ONLY** their set of tasks for the day.
+
+### Git Czar does
+
+2. **Fork** and **clone** this repo from SEI-Apollo.
+3. In GitHub, click on the **Settings** tab, and then navigate to **Collaborators & Teams**.
+4. Add your teammates as collaborators. You will need their Enterprise usernames.
+5. Share the link for your new repo with your teammates.
+
+### All members do
+
+6. Using your Git Czar's link, **clone** their repo. **Do not fork**.
+7. Run `$ npm i` to install all needed Node packages.
+8. Run `$ npm start` to start the react app.
+9. Decide who will be completing each set of tasks outlined below. There should be one person assigned to each set of tasks.
+10. Complete your and **ONLY** your assigned set of tasks for the day.
 
 <details open>
 <summary> Member 1 tasks</summary>
 <br>
 You have been assigned to fix a small problem with the header and add a new link
 
-1. create a new branch `git checkout -b update-header`
-2. Go into `./components/Header`
+1. Create a new branch `git checkout -b update-header`
+2. Navigate into `./components/Header`
 3. Change the margin of the h1 to `margin: 0 4px;`
-4. add a new link to the navbar the link should read "Photos" and for now it can just have a `href="#"` property.
+4. Add a new link to the navbar. The link should read "Photos" and for now it can just have an `href="#"` property.
 
 At this point your tasks have been completed, you can now push your changes to git hub
 
