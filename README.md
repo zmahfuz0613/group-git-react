@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Group Git Best Practices
 
-## Available Scripts
+### A quick review
 
-In the project directory, you can run:
+Git was created in 2005,
 
-### `yarn start`
+### Review
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### You do
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Your team has just been assigned to make a few updates to the Shady Acres website, you have a tight deadline and this site is in desperate need of a few bug fixes and a update to the Navbar. Bellow you will find each person on the teams tasks that need to be finished before this site can go live.
 
-### `yarn test`
+#### Setup
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Team member one should fork and clone this repo from SEI-Apollo
+2. Every other member of the team should fork and clone Team Member 1's repo.
+3. Run `$ npm i` to install all needed Node packages
+4. Run `$ npm start` to start the react app
+5. Each member should complete theirs and ONLY their set of tasks for the day
 
-### `yarn build`
+<details open>
+<summary> Member 1 tasks</summary>
+<br>
+You have been assigned to fix a small problem with the header and add a new link
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. create a new branch `git checkout -b update-header`
+2. Go into `./components/Header`
+3. Change the margin of the h1 to `margin: 0 4px;`
+4. add a new link to the navbar the link should read "Photos" and for now it can just have a `href="#"` property.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+At this point your tasks have been completed, you can now push your changes to git hub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. `$ git add .`
+2. `$ git commit -m 'Updated Navbar`
+3. `$ git push origin update-header`
 
-### `yarn eject`
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<details>
+<summary> Member 2 tasks</summary>
+<br>
+</details>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<details>
+<summary> Member 3 tasks</summary>
+<br>
+</details>
