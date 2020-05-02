@@ -8,15 +8,16 @@ Git was created in 2005,
 
 ### You do
 
-Your team has just been assigned to make a few updates to the Shady Acres website, you have a tight deadline and this site is in desperate need of a few bug fixes and a update to the Navbar. Bellow you will find each person on the teams tasks that need to be finished before this site can go live.
+Your team has just been assigned to make a few updates to the Shady Acres website, you have a tight deadline and this site is in desperate need of a few bug fixes and an update to the Navbar. Below you will find the tasks that need to be finished before this site can go live, divided up by team member.
 
 #### Setup
 
-1. Team member one should fork and clone this repo from SEI-Apollo
-2. Every other member of the team should fork and clone Team Member 1's repo.
-3. Run `$ npm i` to install all needed Node packages
-4. Run `$ npm start` to start the react app
-5. Each member should complete theirs and ONLY their set of tasks for the day
+1. Decide as a group who will be in charge of the repo. This person will be your Git Czar.
+2. Have the Git Czar **fork** and **clone** this repo from SEI-Apollo.
+3. Every other member of the team should **clone** Team Member 1's repo, **do not fork**.
+4. All members run `$ npm i` to install all needed Node packages.
+5. All members run `$ npm start` to start the react app.
+6. Each member should complete their and **ONLY** their set of tasks for the day.
 
 <details open>
 <summary> Member 1 tasks</summary>
