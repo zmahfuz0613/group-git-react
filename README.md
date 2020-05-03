@@ -34,18 +34,18 @@ Decide as a group who will be in charge of the repo. This person will be your Gi
 <br>
 You have been assigned to fix a small problem with the Navbar and add a new link.
 
-1. In your terminal, create a new branch `git checkout -b update-header`.
+1. In your terminal, create a new branch `git checkout -b update-navbar`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
 ```  
   master
-* update-header
+* update-navbar
   remotes/origin/HEAD -> origin/master
   remotes/origin/master 
 ```
 
 You can also check which branch you are on by running a `git status` which should give you something like this:
 ```
-On branch update-header
+On branch update-navbar
 nothing to commit, working tree clean
 ```
 
@@ -54,12 +54,13 @@ Complete the rest of your tasks on this new branch. **Do not work directly on th
 3. Navigate into `./components/Navbar`
 1. Your client wants everything pixel-perfect! Change the margin of the h1 to `margin: 0 4px;`
 1. We also need a link that allows users to view photos of the properties. Add a new link to the Navbar. The link should read "Photos" and for now it can just have an `href="#"` property.
+1. Let's also separate those links a bit so they're easier to read. Add `padding: 0 5px;` to the Anchor styles.
 
 At this point your tasks have been completed, you can now push your changes to GitHub:
 
-6. `$ git add .`
+7. `$ git add .`
 1. `$ git commit -m 'Updated Navbar'`
-1. `$ git push origin update-header`
+1. `$ git push origin update-navbar`
 1. In GitHub, create a new pull request with a brief explanation of what you did.
 1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
 
@@ -95,8 +96,8 @@ Complete the rest of your tasks on this new branch. **Do not work directly on th
 At this point your tasks have been completed, you can now push your changes to GitHub:
 
 7. `$ git add .`
-1. `$ git commit -m 'Updated Navbar'`
-1. `$ git push origin update-header`
+1. `$ git commit -m 'Updated Main'`
+1. `$ git push origin update-main`
 1. In GitHub, create a new pull request with a brief explanation of what you did.
 1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
 </details>
@@ -104,4 +105,35 @@ At this point your tasks have been completed, you can now push your changes to G
 <details>
 <summary> Member 3 tasks</summary>
 <br>
+You have been assigned to add credits and fix a bug in the Footer component.
+
+1. In your terminal, create a new branch `git checkout -b update-footer`.
+1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
+```  
+  master
+* update-footer
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master 
+```
+
+You can also check which branch you are on by running a `git status` which should give you something like this:
+```
+On branch update-footer
+nothing to commit, working tree clean
+```
+
+Complete the rest of your tasks on this new branch. **Do not work directly on the master branch!**
+
+3. Navigate into `./components/Footer`
+1. Currently there is no footer. Make sure everyone who looks at this site will know who built it! Add `<span>Shady Acres</span> ©2020 built by name, name, and name.` (replace 'name' with each of your team's names) to `<Credit>`
+1. It might look a little better if the text is centered. Add styles to `Credit` to center the text.
+1. Let's also give the text a little more padding. Add `padding: 5px;` to `Credit`
+
+At this point your tasks have been completed, you can now push your changes to GitHub:
+
+7. `$ git add .`
+1. `$ git commit -m 'Updated Footer'`
+1. `$ git push origin update-footer`
+1. In GitHub, create a new pull request with a brief explanation of what you did.
+1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
 </details>
