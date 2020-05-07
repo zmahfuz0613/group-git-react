@@ -14,7 +14,7 @@ const Nav = styled.nav`
 `;
 const H1 = styled.h1`
   margin: 0 3px;
-  font-family: "Yesteryear", cursive;
+  font-family: "Raleway";
   font-size: 2.8em;
   color: hsl(170, 40%, 60%);
   text-shadow: 0.5px 0.5px 0.2px black;

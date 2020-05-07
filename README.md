@@ -1,10 +1,4 @@
-# Group Git Best Practices
-
-### A quick review
-
-Git was created in 2005,
-
-### Review
+# Group Git React
 
 ### You do
 
@@ -29,21 +23,23 @@ Decide as a group who will be in charge of the repo. This person will be your Gi
 1. Decide who will be completing each set of tasks outlined below. There should be one person assigned to each set of tasks.
 1. Complete your and **ONLY** your assigned set of tasks for the day.
 
-<details open>
+<details>
 <summary> Member 1 tasks</summary>
 <br>
 You have been assigned to fix a small problem with the Navbar and add a new link.
 
 1. In your terminal, create a new branch `git checkout -b update-navbar`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
-```  
+
+```
   master
 * update-navbar
   remotes/origin/HEAD -> origin/master
-  remotes/origin/master 
+  remotes/origin/master
 ```
 
 You can also check which branch you are on by running a `git status` which should give you something like this:
+
 ```
 On branch update-navbar
 nothing to commit, working tree clean
@@ -62,7 +58,7 @@ At this point your tasks have been completed, you can now push your changes to G
 1. `$ git commit -m 'Updated Navbar'`
 1. `$ git push origin update-navbar`
 1. In GitHub, create a new pull request with a brief explanation of what you did.
-1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
+1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready.
 
 </details>
 
@@ -73,14 +69,16 @@ You have been assigned to fix a typo and add a little styling to the Main compon
 
 1. In your terminal, create a new branch `git checkout -b update-main`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
-```  
+
+```
   master
 * update-main
   remotes/origin/HEAD -> origin/master
-  remotes/origin/master 
+  remotes/origin/master
 ```
 
 You can also check which branch you are on by running a `git status` which should give you something like this:
+
 ```
 On branch update-main
 nothing to commit, working tree clean
@@ -99,7 +97,7 @@ At this point your tasks have been completed, you can now push your changes to G
 1. `$ git commit -m 'Updated Main'`
 1. `$ git push origin update-main`
 1. In GitHub, create a new pull request with a brief explanation of what you did.
-1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
+1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready.
 </details>
 
 <details>
@@ -109,14 +107,16 @@ You have been assigned to add credits and fix a bug in the Footer component.
 
 1. In your terminal, create a new branch `git checkout -b update-footer`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
-```  
+
+```
   master
 * update-footer
   remotes/origin/HEAD -> origin/master
-  remotes/origin/master 
+  remotes/origin/master
 ```
 
 You can also check which branch you are on by running a `git status` which should give you something like this:
+
 ```
 On branch update-footer
 nothing to commit, working tree clean
@@ -132,8 +132,12 @@ Complete the rest of your tasks on this new branch. **Do not work directly on th
 At this point your tasks have been completed, you can now push your changes to GitHub:
 
 7. `$ git add .`
-1. `$ git commit -m 'Updated Footer'`
-1. `$ git push origin update-footer`
-1. In GitHub, create a new pull request with a brief explanation of what you did.
-1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
+8. `$ git commit -m 'Updated Footer'`
+9. `$ git push origin update-footer`
+10. In GitHub, create a new pull request with a brief explanation of what you did.
+11. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready.
 </details>
+
+### Code Review
+
+After your pull request have been opened your team should take a few minuets
