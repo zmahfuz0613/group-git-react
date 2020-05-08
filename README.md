@@ -141,3 +141,15 @@ At this point your tasks have been completed, you can now push your changes to G
 ### Code Review
 
 After your pull request have been opened your team should take a few minuets
+Make sure every one in your group has had a chance to talk about what changes they have made. Check for conflicts and the "Git Czar" can merge the pull request to the master branch. 
+
+After this step all members should `git checkout master` and run `git pull` at this point you will have all the latest changes to the project! Test it out by running `npm start`
+
+### Merge Conflict
+
+Okay last min changes have came in and we need fix a small issue with the app.
+Each member should create a new branch `git checkout -b 'myname'-hotfix`
+In this new branch go to `App.js` and change the inital state of year to the year they were born or some other random year.
+
+once you have saved and commited your changes you should be able to go back to GitHub and open a new pull request. At this point you should see that there is a issue and that the changes can not be merged into master until the merge conflit has been resolved. If you can not remeber how to remedy this look back at yesterdays lesson to look for a soulution!
+
