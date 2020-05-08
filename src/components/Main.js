@@ -37,12 +37,12 @@ const Images = styled.div`
 
 const images = [House1, House2, House3, House4]
 
-export default function Main() {
+export default function Main({year}) {
   return (
     <MainDiv>
       <Hero>
         <h1>Reserve your land plot now!</h1>
-        <div>Construction starts early 2019</div>
+        <div>Construction starts early {year}</div>
       </Hero>
         <Images>
           {images.map(image => {

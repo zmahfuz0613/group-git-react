@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
@@ -13,10 +13,13 @@ const Page = styled.div`
 `;
 
 function App() {
+  const [year, setYear]= useState('2017')
+
+
   return (
     <Page>
       <Navbar />
-      <Main />
+      <Main year={year}/>
       <Footer />
     </Page>
   );
