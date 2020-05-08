@@ -1,8 +1,12 @@
 # Group Git React
 
+## [Git Docs](https://www.git-scm.com/docs)
+
+You have all been using git for a couple months now, but only as individuals. Today you will be getting a taste of how git works in groups.
+
 ### You do
 
-Your team has just been assigned to make a few updates to the Shady Acres website, you have a tight deadline and this site is in desperate need of a few bug fixes and an update to the Navbar. Below you will find the tasks that need to be finished before this site can go live, divided up by team member.
+Your team has just been assigned to make a few updates to the Shady Acres website, you have a tight deadline and this site is in desperate need of a few bug fixes and updates. Below you will find the tasks that need to be finished before this site can go live, divided up by team member.
 
 #### Setup
 
@@ -11,35 +15,58 @@ Decide as a group who will be in charge of the repo. This person will be your Gi
 ### Git Czar does
 
 1. **Fork** and **clone** this repo from SEI-Apollo.
+
+1. Share your screen so everyone gets to see this process.
+
+1. Create branch protection rules.
+    - Click on settings and then branches
+    - Add new rule to master branch
+    - Check the box for Require pull request reviews before merging
+    - Check Require view from Code Owners
+    - Save Changes 
+    # ![](assets/add_rules.png)
+
+    >This will make it so the git Czar has to review all changes and no one can accidentally push directly to master.
+
+1. Share the link for your new repo with your teammates in Slack.
+
 1. In GitHub, click on the **Settings** tab, and then navigate to **Collaborators & Teams**.
+
 1. Add your teammates as collaborators. You will need their Enterprise usernames.
-1. Share the link for your new repo with your teammates.
+   # ![](assets/add_collaborators.png)
 
 ### All members do
 
-1. Using your Git Czar's link, **clone** their repo. **Do not fork**.
+1. The Git Czar can stop sharing their screen for now.
+
+1. Using the Git Czar's link, **clone** their repo. **Do not fork**. 
+    >Forking creates a new repo on your own account, but right now we don't want that. We want to all be working on the same repo.
+
+1. `cd` into the newly cloned directory.
+
 1. Run `$ npm i` to install all needed Node packages.
+
 1. Run `$ npm start` to start the react app.
+
 1. Decide who will be completing each set of tasks outlined below. There should be one person assigned to each set of tasks.
+
 1. Complete your and **ONLY** your assigned set of tasks for the day.
 
-<details>
-<summary> Member 1 tasks</summary>
+<details open>
+<summary> Member 1 tasks: Navbar</summary>
 <br>
 You have been assigned to fix a small problem with the Navbar and add a new link.
 
 1. In your terminal, create a new branch `git checkout -b update-navbar`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
-
-```
+```  
   master
 * update-navbar
   remotes/origin/HEAD -> origin/master
-  remotes/origin/master
+  remotes/origin/master 
 ```
 
 You can also check which branch you are on by running a `git status` which should give you something like this:
-
 ```
 On branch update-navbar
 nothing to commit, working tree clean
@@ -55,30 +82,28 @@ Complete the rest of your tasks on this new branch. **Do not work directly on th
 At this point your tasks have been completed, you can now push your changes to GitHub:
 
 7. `$ git add .`
-1. `$ git commit -m 'Updated Navbar'`
+1. `$ git commit -m 'Update Navbar'`
 1. `$ git push origin update-navbar`
 1. In GitHub, create a new pull request with a brief explanation of what you did.
-1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready.
+1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
 
 </details>
 
 <details>
-<summary> Member 2 tasks</summary>
+<summary> Member 2 tasks: Main</summary>
 <br>
 You have been assigned to fix a typo and add a little styling to the Main component.
 
 1. In your terminal, create a new branch `git checkout -b update-main`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
-
-```
+```  
   master
 * update-main
   remotes/origin/HEAD -> origin/master
-  remotes/origin/master
+  remotes/origin/master 
 ```
 
 You can also check which branch you are on by running a `git status` which should give you something like this:
-
 ```
 On branch update-main
 nothing to commit, working tree clean
@@ -94,29 +119,27 @@ Complete the rest of your tasks on this new branch. **Do not work directly on th
 At this point your tasks have been completed, you can now push your changes to GitHub:
 
 7. `$ git add .`
-1. `$ git commit -m 'Updated Main'`
+1. `$ git commit -m 'Update Main'`
 1. `$ git push origin update-main`
 1. In GitHub, create a new pull request with a brief explanation of what you did.
-1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready.
+1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
 </details>
 
 <details>
-<summary> Member 3 tasks</summary>
+<summary> Member 3 tasks: Footer</summary>
 <br>
 You have been assigned to add credits and fix a bug in the Footer component.
 
 1. In your terminal, create a new branch `git checkout -b update-footer`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
-
-```
+```  
   master
 * update-footer
   remotes/origin/HEAD -> origin/master
-  remotes/origin/master
+  remotes/origin/master 
 ```
 
 You can also check which branch you are on by running a `git status` which should give you something like this:
-
 ```
 On branch update-footer
 nothing to commit, working tree clean
@@ -132,24 +155,47 @@ Complete the rest of your tasks on this new branch. **Do not work directly on th
 At this point your tasks have been completed, you can now push your changes to GitHub:
 
 7. `$ git add .`
-8. `$ git commit -m 'Updated Footer'`
-9. `$ git push origin update-footer`
-10. In GitHub, create a new pull request with a brief explanation of what you did.
-11. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready.
+1. `$ git commit -m 'Update Footer'`
+1. `$ git push origin update-footer`
+1. In GitHub, create a new pull request with a brief explanation of what you did.
+1. If you are the Git Czar, wait until your teammates have let you know they have new changes ready to merge. If not, let your Git Czar know your pull request is ready. 
 </details>
 
 ### Code Review
 
-After your pull request have been opened your team should take a few minuets
-Make sure every one in your group has had a chance to talk about what changes they have made. Check for conflicts and the "Git Czar" can merge the pull request to the master branch. 
+1. As a group, discuss what changes you made.
 
-After this step all members should `git checkout master` and run `git pull` at this point you will have all the latest changes to the project! Test it out by running `npm start`
+1. Have the Git Czar share their screen again.
 
-### Merge Conflict
+1. On Github, click on the Pull Requests tab. You should see pull requests from all team members.
 
-Okay last min changes have came in and we need fix a small issue with the app.
-Each member should create a new branch `git checkout -b 'myname'-hotfix`
-In this new branch go to `App.js` and change the inital state of year to the year they were born or some other random year.
+1. Review pull request
 
-once you have saved and commited your changes you should be able to go back to GitHub and open a new pull request. At this point you should see that there is a issue and that the changes can not be merged into master until the merge conflit has been resolved. If you can not remeber how to remedy this look back at yesterdays lesson to look for a soulution!
+1. As Git Czar you should see the following (pic below)
+    >If you set things up correctly only the git master will be able to see the add your review option)
 
+    # ![](assets/review_merge3.png)
+
+1. Click on add your review
+
+1. If there is no merge conflict, you should be able to merge the new code.
+
+1. Go ahead and merge it!
+
+1. Once all conflicts have been resolved and the Git Czar has finished merging all changes, all members should return to their local master branch `git checkout master`
+
+1. Run `git pull` to make sure you have the most up to date version of master.
+
+1. You should now have the same code as everyone else, including all the changes that were made!
+
+### Merge Conflict!!!
+
+Okay last min changes have came in and we need fix a small issue with the app. 
+
+1. Each member should create a new branch `git checkout -b 'myname'-hotfix` In this new branch. 
+
+1. Go to App.js and change the inital state of year to the year you were born (or some other random year).
+
+1. Commit your new changes and make a new pull request. 
+
+1. At this point you should see that there is a issue and that the changes can not be merged into master until the merge conflit has been resolved. If you can not remeber how to remedy this look back at yesterdays lesson to look for a soulution!
