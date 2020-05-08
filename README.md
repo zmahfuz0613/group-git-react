@@ -20,7 +20,7 @@ Decide as a group who will be in charge of the repo. This person will be your Gi
 
 1. Create branch protection rules.
     - Click on settings and then branches
-    - Add new rule to master branch
+    - Add new rule to **master** branch (the screenshot says develop, use master)
     - Check the box for Require pull request reviews before merging
     - Check Require view from Code Owners
     - Save Changes 
