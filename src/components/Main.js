@@ -41,7 +41,7 @@ export default function Main({year}) {
   return (
     <MainDiv>
       <Hero>
-        <h1>Reserve your land plot now!</h1>
+        <h1>Reserver your land plot now!</h1>
         <div>Construction starts early {year}</div>
       </Hero>
         <Images>
