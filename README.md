@@ -14,7 +14,7 @@ Decide as a group who will be in charge of the repo. This person will be your Gi
 
 ### Git Czar does
 
-1. **Fork** and **clone** this repo from SEI-Apollo.
+1. **Fork** and **clone** this repo from SEI-Bees.
 
 1. Share your screen so everyone gets to see this process.
 
