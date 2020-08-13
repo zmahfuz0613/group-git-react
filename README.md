@@ -198,4 +198,4 @@ Okay last min changes have came in and we need fix a small issue with the app.
 
 1. Commit your new changes and make a new pull request. 
 
-1. At this point you should see that there is a issue and that the changes can not be merged into master until the merge conflit has been resolved. If you can not remeber how to remedy this look back at yesterdays lesson to look for a soulution!
+1. At this point you should see that there is an issue and that the changes can not be merged into master until the merge conflit has been resolved. If you can not remeber how to remedy this look back at our [git teams lesson](https://git.generalassemb.ly/sei-nyc-bees/git-teams) to look for a soulution!
