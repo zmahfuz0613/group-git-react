@@ -1,5 +1,7 @@
 # Group Git React
 
+Before we send you off on you're own, we're going to demonstrate a merge conflict for you!
+
 ## [Git Docs](https://www.git-scm.com/docs)
 
 You have all been using git for a couple months now, but only as individuals. Today you will be getting a taste of how git works in groups.
