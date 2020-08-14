@@ -13,7 +13,8 @@ const Page = styled.div`
 `;
 
 function App() {
-  const [year, setYear]= useState('1990')
+
+  const [year, setYear]= useState('1989')
 
 
   return (
@@ -26,3 +27,4 @@ function App() {
 }
 
 export default App;
+// edsf
