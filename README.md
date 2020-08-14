@@ -59,7 +59,7 @@ Decide as a group who will be in charge of the repo. This person will be your Gi
 <br>
 You have been assigned to fix a small problem with the Navbar and add a new link.
 
-1. In your terminal, create a new branch `git checkout -b update-navbar`.
+1. In your terminal, create a new branch `git checkout -b feature/update-navbar`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
 ```  
   master
@@ -96,7 +96,7 @@ At this point your tasks have been completed, you can now push your changes to G
 <br>
 You have been assigned to fix a typo and add a little styling to the Main component.
 
-1. In your terminal, create a new branch `git checkout -b update-main`.
+1. In your terminal, create a new branch `git checkout -b feature/update-main`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
 ```  
   master
@@ -132,7 +132,7 @@ At this point your tasks have been completed, you can now push your changes to G
 <br>
 You have been assigned to add credits and fix a bug in the Footer component.
 
-1. In your terminal, create a new branch `git checkout -b update-footer`.
+1. In your terminal, create a new branch `git checkout -b feature/update-footer`.
 1. Type `git branch -a` to see your branches and remotes. The branch you are currently on should have an asterisk next to it. It should look something like this:
 ```  
   master
@@ -194,10 +194,10 @@ At this point your tasks have been completed, you can now push your changes to G
 
 Okay last min changes have came in and we need fix a small issue with the app. 
 
-1. Each member should create a new branch `git checkout -b 'myname'-hotfix` In this new branch. 
+1. Each member should create a new branch `git checkout -b hotfix/add-year` In this new branch. 
 
 1. Go to App.js and change the inital state of year to the year you were born (or some other random year).
 
 1. Commit your new changes and make a new pull request. 
 
-1. At this point you should see that there is an issue and that the changes can not be merged into master until the merge conflit has been resolved. If you can not remeber how to remedy this look back at our [git teams lesson](https://git.generalassemb.ly/sei-nyc-bees/git-teams) to look for a soulution!
+1. At this point you should see that there is an issue and that the changes can not be merged into master until the merge conflit has been resolved. If you can not rememeber how to remedy this look back at our [git teams lesson](https://git.generalassemb.ly/sei-nyc-bees/git-teams) to look for a soulution!
