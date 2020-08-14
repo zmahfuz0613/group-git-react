@@ -35,6 +35,7 @@ const Images = styled.div`
   
 
 `
+// wop
 
 const images = [House1, House2, House3, House4]
 
