@@ -13,7 +13,7 @@ const Nav = styled.nav`
   height: auto;
 `;
 const H1 = styled.h1`
-  margin: 0 3px;
+  margin: 0 4px;
   font-family: "Raleway";
   font-size: 2.8em;
   color: hsl(170, 40%, 60%);
@@ -39,6 +39,7 @@ const Anchor = styled.a`
   color: hsl(195, 53%, 43%);
   text-shadow: 0.5px 0.5px 0.2px rgba(0, 0, 0, 0.4);
   font-size: 1.2em;
+  padding: 0 5px;
 `;
 
 export default function Navbar() {
@@ -48,6 +49,7 @@ export default function Navbar() {
         <div>
           <H1>Shady Acres</H1>
           <H3>A nice place to live!</H3>
+          <Anchor href="#">Photos</Anchor>
         </div>
         <Links>
           <Anchor href="#">Contact Us</Anchor>
