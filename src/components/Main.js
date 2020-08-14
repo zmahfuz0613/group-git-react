@@ -29,10 +29,11 @@ const Images = styled.div`
   margin: 20px;
   width: 80%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  vertical-align: auto;
   justify-content: center;
+  min-height: 60vh;
   
+
 `
 
 const images = [House1, House2, House3, House4]
